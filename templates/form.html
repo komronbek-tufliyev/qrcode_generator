@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Generate QRs
+{% endblock %}
+
+{% block content %}
+<div class="qrcode_form">
+    <form action="" method="post" class="form-control">
+        <h2>Generate QR codes</h2>
+        <input type="url" name="url" placeholder="Your URL please" required>
+        <button>Generate</button>
+    </form>
+
+    <div class="result">
+        <h2>Your Result: </h2>
+        <img src="{{ url_for('static', filename='image/result.png')}}" alt="Result" class="result_img" >
+        <a href="{{ url_for('static', filename='image/result.png')}}" class="" download>Download image</a>
+    </div>
+</div>
+{% endblock %}

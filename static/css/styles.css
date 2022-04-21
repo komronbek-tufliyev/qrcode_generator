@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 70px;
+    background: #222;
+    transition: 0.3s;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+nav li{
+    padding: 10px;
+}
+
+nav .brand{
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #2583ff;
+}
+
+.container{
+    padding: 0 100px;
+}
+
+.info{
+    margin-top: 50px;
+}
+
+.qrcode_form{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px 8px #5afc9d6c;
+}
+
+form{
+    width: 50%;
+    /* height: 400px; */
+    padding: 30px;
+    display: flex;
+    /* justify-content: center; */
+    text-align: left;
+    flex-direction: column;
+    border: 2px solid #222;
+    margin-right: 50px;
+
+    /* border: 2px solid red; */
+}
+
+form h2{
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+form button{
+    width: 100%;
+    padding: 10px;
+    background: #3e91ff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+form button:hover{
+    background: #3b8cf5;
+}
+
+.result{
+    width: 50%;
+    border: 2px solid #222;
+    padding: 30px;
+}
